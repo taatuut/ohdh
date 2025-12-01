@@ -23,6 +23,27 @@ https://towardsdatascience.com/visualizing-road-networks-c4664182e6c1/
 
 https://towardsdatascience.com/geospatial-data-analysis-with-osmnx-8a300d77b592-2/
 
+# prep
+
+```sh
+source .env && mkdir -p ~/.venv && python3 -m venv ~/.venv && source ~/.venv/bin/activate
+```
+
+To unload the `venv` run `deactivate`.
+
+In the terminal install Python modules (optional: update `pip`) and source the environment variables.
+
+NOTE: pip <=25.2 had issue GHSA-4xh5-x5gv-qwph.
+
+```sh
+python3 -m pip install --upgrade pip
+python3 -m pip install osmnx folium contextily
+```
+
+`python3 -m pip show osmnx`
+
 # steps
 
+`python3 play.py`
 
+`open graph_map.html`
