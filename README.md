@@ -46,4 +46,4 @@ python3 -m pip install osmnx folium contextily
 
 `python3 play.py`
 
-`open graph_map.html`
+`open graph_map_{network_type}.html`
